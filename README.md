@@ -5,7 +5,11 @@
 This project implements a point-cloud completion pipeline for long-bone reconstruction from partial 3D scans. The codebase is built around a SymmCompletion-style model and is configured for custom archaeological bone datasets, with dataset normalization, split generation, and online partial-crop generation handled inside the training pipeline.
 
 <p align="center">
-  <img src="./assets/bone_reconstruction_demo.png" alt="Bone reconstruction visualization" width="100%" />
+  <img src="./assets/bone_progression.png" alt="Bone reconstruction visualization" width="100%" />
+</p>
+
+<p align="left">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>3D Partial Long Bone</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Reconstructed Point Cloud</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Reconstructed Mesh</b>
 </p>
 
 ## Current repository layout
