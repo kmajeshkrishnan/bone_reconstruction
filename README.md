@@ -4,6 +4,10 @@
 # Overview
 This project implements a point-cloud completion pipeline for long-bone reconstruction from partial 3D scans. The codebase is built around a SymmCompletion-style model and is configured for custom archaeological bone datasets, with dataset normalization, split generation, and online partial-crop generation handled inside the training pipeline.
 
+<p align="center">
+  <img src="./assets/bone_reconstruction_demo.png" alt="Bone reconstruction visualization" width="100%" />
+</p>
+
 ## Current repository layout
 - `main.py`: training and evaluation entry point
 - `prepare_custom_dataset.py`: create normalized bone dataset from raw OBJ meshes
