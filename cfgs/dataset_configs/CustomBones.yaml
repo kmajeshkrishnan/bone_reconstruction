@@ -1,0 +1,5 @@
+NAME: CustomBones
+DATA_PATH: ./datasets/CustomBones/complete_global_norm_uniform_balanced
+N_POINTS: 8192
+PC_PATH: ./datasets/CustomBones/complete_global_norm_uniform_balanced
+#CROP_METHOD: 'end_crop'
